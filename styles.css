@@ -4,7 +4,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
 }
 
 p {
@@ -15,6 +14,7 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
+    gap: 15px;
 }
 
 li {
@@ -30,6 +30,7 @@ a {
 header {
     background-color: #1F2937;
     font-size: 24px;
+    padding: 15px;
     color: #F9FAF8;
     display: flex;
     justify-content: space-around;
@@ -38,21 +39,26 @@ header {
 .content {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    justify-content: space-between;
 }
 .container-one {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
+    padding: 50px;
 }
 
 .subcontainer-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 400px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   justify-content: center;
+}
+
+.sign-up {
+    width: 80px;
 }
 
 .one-title {
@@ -60,8 +66,8 @@ header {
     font-weight: bolder;
 }
 
-.brooklands {
-    width: 300px;
+.coco-bunny {
+    width: 400px;
     height: auto;
     border: 5px solid #555;
 }
@@ -69,13 +75,16 @@ header {
 button {
     background-color: #3882F6;
     border-radius: 5px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    border: none;
+    padding: 5px;
 }
 
 .container-two {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 40px;
 }
 
 .two-title {
@@ -90,9 +99,9 @@ button {
 
 .container-three {
     background-color: #E5E7EB;
-
     align-items: center;
 }
+
 .quote {
     font-size: 36px;
     font-style: italic;
