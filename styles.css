@@ -33,21 +33,21 @@ header {
     padding: 15px;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    flex: 1;
 }
 .container-one {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    justify-content: center;
     gap: 40px;
     padding: 50px;
+    justify-content: center;
 }
 
 .subcontainer-one {
@@ -55,6 +55,7 @@ header {
    flex-direction: column;
    gap: 5px;
    justify-content: center;
+   width: 500px;
 }
 
 .sign-up {
@@ -84,22 +85,49 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 50px;
 }
 
 .two-title {
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.food-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .subtext {
     display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.bunny-food {
+    height: 130px;
+    width: 130px;
+    border: solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+
+.image-description {
+    width: 200px;
+    text-align: center;
 }
 
 .container-three {
     background-color: #E5E7EB;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 30px;
 }
 
 .quote {
@@ -110,9 +138,41 @@ button {
 
 .quote-source {
     font-weight: bold;
+    align-self: flex-end;
 }
 
 footer {
+    padding: 30px;
+    margin: 50px;
     display: flex;
     justify-content: center;
+}
+
+.footer {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    padding-right: 250px;
+    padding-left: 80px;
+    border-radius: 5px ;
+}
+
+.call {
+   font-size: 18px; 
+   font-weight: bolder;
+   color: #F9FAF8;
+}
+
+.product {
+    color: #F9FAF8;
+    width: 550px;
+}
+
+.sign-up-two {
+    border: 2px solid #F9FAF8;
+    position: absolute; 
+    margin-left: 600px;
+    width: 100px;
 }
